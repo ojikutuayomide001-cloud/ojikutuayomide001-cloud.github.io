@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Personal portfolio of an aspiring software developer.">
+
+    <title>Ojikutu | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <a class="logo" href="#home">OJIKUTU<span>.</span></a>
+
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="nav-menu">
+            ☰
+        </button>
+
+        <nav id="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+
+            <div class="hero-copy">
+                <p class="eyebrow">ASPIRING SOFTWARE DEVELOPER</p>
+
+                <h1>
+                    Building digital experiences,
+                    <span>one step at a time.</span>
+                </h1>
+
+                <p class="hero-intro">
+                    I'm an aspiring software developer passionate about
+                    building practical, user-focused digital experiences.
+                    I have experience working with HTML, CSS, JavaScript,
+                    PHP and MySQL, including developing a fish marketplace
+                    platform. I'm continuously improving my skills and
+                    exploring new ways to turn ideas into functional solutions.
+                </p>
+            </div>
+
+            <div class="hero-photo">
+                <img src="images/profile.jpg" alt="Portrait of Ojikutu">
+            </div>
+
+            <div class="hero-actions">
+                <a href="#projects" class="button button-primary">
+                    Explore My Work
+                </a>
+
+                <a href="#contact" class="button button-outline">
+                    Contact Me
+                </a>
+
+                <a href="cv.pdf" class="button button-outline" download>
+    Download CV
+</a>
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="section about-section" id="about">
+
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-content">
+                <p>
+                    I'm interested in software development and enjoy
+                    turning ideas into working digital products.
+                    My experience includes building web interfaces
+                    and working with backend technologies and databases.
+                </p>
+
+                <p>
+                    One of my major projects is the FCFMT Fish Marketplace,
+                    a web platform developed to make fish products easier
+                    to browse and purchase. Working on it has helped me
+                    understand how different parts of a web application
+                    work together.
+                </p>
+
+                <p>
+                    I'm currently strengthening my development skills,
+                    learning through practical projects and looking
+                    forward to growing as a developer.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section class="section skills-section" id="skills">
+
+            <div class="section-heading">
+                <p class="eyebrow">MY TOOLBOX</p>
+                <h2>Skills & Technologies</h2>
+                <p>Technologies I've worked with and continue to develop.</p>
+            </div>
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+                    <span class="skill-number">01</span>
+                    <h3>HTML</h3>
+                    <p>Building structured web pages.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">02</span>
+                    <h3>CSS</h3>
+                    <p>Creating responsive and engaging interfaces.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">03</span>
+                    <h3>JavaScript</h3>
+                    <p>Adding functionality and interactivity.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">04</span>
+                    <h3>PHP</h3>
+                    <p>Developing server-side functionality.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">05</span>
+                    <h3>MySQL</h3>
+                    <p>Working with relational databases.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">06</span>
+                    <h3>Development Tools</h3>
+                    <p>Working with VS Code and XAMPP.</p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+       <!-- PROJECTS SECTION -->
+<section class="section projects-section" id="projects">
+
+    <div class="section-heading">
+        <p class="eyebrow">MY WORK</p>
+        <h2>Featured Projects</h2>
+        <p>A selection of projects I've worked on during my development journey.</p>
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- PROJECT ONE: FCFMT MARKETPLACE -->
+        <article class="project-card">
+
+            <div class="project-image">
+                <img
+                    src="images/fcfmt-marketplace.jpg"
+                    alt="FCFMT Fish Marketplace website preview">
+            </div>
+
+            <div class="project-details">
+
+                <p class="eyebrow">FULL-STACK WEB DEVELOPMENT</p>
+
+                <h3>FCFMT Fish Marketplace</h3>
+
+                <p>
+                    A digital marketplace developed for the Fisheries
+                    Department of the Federal College of Fisheries and
+                    Marine Technology. It provides a platform for
+                    browsing fish products, managing purchases and
+                    tracking orders.
+                </p>
+
+                <div class="project-features">
+                    <span>Product Catalogue</span>
+                    <span>Shopping Cart</span>
+                    <span>Checkout</span>
+                    <span>Order Tracking</span>
+                    <span>Admin Dashboard</span>
+                </div>
+
+                <p class="project-stack">
+                    PHP · MySQL · HTML · CSS · JavaScript
+                </p>
+
+                <div class="project-actions">
+                    <a href="https://fcfmtfishmarketplace.gt.tc/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        Visit Live Website ↗
+                    </a>
+                </div>
+
+            </div>
+        </article>
+
+
+        <!-- PROJECT TWO: OGUNBODE FICTIONAL LGA -->
+        <article class="project-card">
+
+            <div class="project-image">
+                <img
+                    src="images/ogunbode-lga.jpg"
+                    alt="Ogunbode Fictional LGA website preview">
+            </div>
+
+            <div class="project-details">
+
+                <p class="eyebrow">WEB DEVELOPMENT</p>
+
+                <h3>Ogunbode Fictional LGA</h3>
+
+                <p>
+                    A fictional Local Government Area website project.
+                    This project forms part of my practical experience
+                    in designing and developing web-based solutions.
+                </p>
+
+                <div class="project-features">
+                    <span>Web Design</span>
+                    <span>Frontend Development</span>
+                    <span>Personal Project</span>
+                </div>
+
+                <p class="project-stack">
+                    HTML · CSS · JavaScript
+                </p>
+
+                <div class="project-actions">
+                    <a href="https://github.com/ojikutuayomide001-cloud/ogunbode-lga"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        View GitHub Repository ↗
+                    </a>
+                </div>
+
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+
+        <!-- PERSONAL GALLERY -->
+        <section class="section gallery-section" id="gallery">
+
+            <div class="section-heading">
+                <p class="eyebrow">BEYOND THE CODE</p>
+                <h2>A Little More About Me</h2>
+                <p>A glimpse into my world outside development.</p>
+            </div>
+
+            <div class="gallery-grid">
+
+                <button class="gallery-item" type="button">
+                    <img src="images/gallery-1.jpg" alt="Personal gallery photograph 1">
+                    <span>View Photo</span>
+                </button>
+
+                <button class="gallery-item" type="button">
+                    <img src="images/gallery-2.jpg" alt="Personal gallery photograph 2">
+                    <span>View Photo</span>
+                </button>
+
+                <button class="gallery-item" type="button">
+                    <img src="images/gallery-3.jpg" alt="Personal gallery photograph 3">
+                    <span>View Photo</span>
+                </button>
+
+                <button class="gallery-item" type="button">
+                    <img src="images/gallery-4.jpg" alt="Personal gallery photograph 4">
+                    <span>View Photo</span>
+                </button>
+
+                <button class="gallery-item" type="button">
+                    <img src="images/gallery-5.jpg" alt="Personal gallery photograph 5">
+                    <span>View Photo</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="contact-section" id="contact">
+
+            <div class="contact-content">
+
+                <p class="eyebrow">LET'S CONNECT</p>
+
+                <h2>Have an opportunity or project in mind?</h2>
+
+                <p>
+                    I'm interested in learning, collaborating and
+                    connecting with people in technology.
+                </p>
+
+                <a href="mailto:ojikutuayomide001@gmail.com"
+                   class="button button-light">
+                    Send Me an Email
+                </a>
+
+                <div class="social-links">
+                    <a href="https://github.com/ojikutuayomide001-cloud"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/ojikutu-ayomide-69070a44a"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- IMAGE LIGHTBOX -->
+    <dialog class="lightbox" id="lightbox">
+
+        <button class="lightbox-close" id="lightbox-close"
+                aria-label="Close image">
+            ×
+        </button>
+
+        <img id="lightbox-image" src="" alt="Expanded gallery photograph">
+
+    </dialog>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© <span id="current-year"></span> Ojikutu. Built with curiosity and code.</p>
+    </footer>
+
+</body>
+</html>
